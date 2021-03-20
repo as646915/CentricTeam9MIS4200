@@ -253,6 +253,7 @@ th {
   }
   .table {
     border-collapse: collapse !important;
+
   }
   .table td,
   .table th {
@@ -1087,6 +1088,8 @@ body {
   line-height: 1.42857143;
   color: #333333;
   background-color: #fff;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 input,
 button,
@@ -1610,6 +1613,7 @@ pre code {
 .row {
   margin-right: -15px;
   margin-left: -15px;
+
 }
 .row-no-gutters {
   margin-right: 0;
@@ -2367,7 +2371,8 @@ caption {
   text-align: left;
 }
 th {
-  text-align: left;
+    text-align: left;
+    color: #2c1a5d;
 }
 .table {
   width: 100%;
@@ -5037,27 +5042,36 @@ a.badge:focus {
     padding-top: 30px;
     padding-bottom: 30px;
     margin-bottom: 30px;
-    color: #FFFFFF;
+    color: #2c1a5d;
     background-color: #ffb612;
 }
-.jumbotron h1,
-.jumbotron .h1 {
-  color: inherit;
-}
+    .jumbotron h1,
+    .jumbotron .h1 {
+        color: #2c1a5d;
+        margin-left: 25px;
+    }
     .jumbotron p {
         margin-bottom: 15px;
+        margin-left: 25px;
+        margin-right: 0px;
         font-size: 21px;
         font-weight: 200;
-        color: #FFFFFF;
+        color: #2c1a5d;
         background-color: #ffb612;
     }
+.centric-jumbotron {
+    margin: 15px;
+    color: #2c1a5d;
+    background-color: #ffb612;
+}
 .jumbotron > hr {
   border-top-color: #d5d5d5;
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
-  padding-right: 15px;
-  padding-left: 15px;
+  margin-left: 0;
+    padding-right: 0px;
+  padding-left: 0px;
   border-radius: 6px;
 }
 .jumbotron .container {
@@ -5900,12 +5914,14 @@ button.list-group-item-danger.active:focus {
     min-height: 20px;
     padding: 19px;
     margin-bottom: 20px;
+    margin: 15px;
     background-color: #ffb612;
     border: 1px solid #e3e3e3;
     border-radius: 4px;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
     color: #2c1a5d;
+    text-align: left;
 }
 .well blockquote {
   border-color: #ddd;
@@ -6628,6 +6644,10 @@ button.close {
 }
 .core-values-main{
     font-size:24px;
+}
+.edit-profiles {
+    background-color: #ffb612;
+    color: #2c1a5d;
 }
 @-ms-viewport {
   width: device-width;
